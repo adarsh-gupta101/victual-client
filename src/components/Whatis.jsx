@@ -50,7 +50,7 @@ function Whatis() {
             <div className='md:w-1/3 p-4 flex flex-col justify-center items-center md:items-start  '>
               <img src={res.img} className='w-20' />
               <p className='text-xl md:text-2xl font-bold mt-8'>{res.title}</p>
-              <p className='text-xl text-gray-500 mt-8'>{res.desc}</p>
+              <p className='text-xl text-center md:text-left text-gray-500 mt-8'>{res.desc}</p>
             </div>
           );
         })}
