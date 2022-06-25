@@ -18,17 +18,17 @@ function Banner() {
           className='w-full h-full brightness-75 object-cover '
         />
         <div className='absolute top-10 md:top-40 w-11/12 md:w-4/5 bg '>
-          <p className='text-5xl md:text-6xl xl:text-7xl text-white font-bold m-6 md:px-28'>
+          <p className='text-4xl md:text-6xl xl:text-7xl text-white font-bold m-6 md:px-28'>
             Earn money doing what you love
           </p>
-          <p className='text-2xl md:text-3xl lg:text-3xl text-white mx-6 md:px-28'>
+          <p className='text-xl md:text-3xl lg:text-3xl text-white mx-6 md:px-28'>
             Sign up to be your own boss and cook whenever you want.
           </p>
           <div className='md:flex m-8 items-center'>
             <input
               type='text'
               placeholder='Phone number'
-              className='py-2 md:ml-28 mr-6 md:px-6 my-2 h-16 rounded outline-none'
+              className='py-2 md:ml-28 mr-6 md:px-6 my-2 h-16 w-full rounded outline-none'
             />
             <div className='flex-col'>
               <div className='my-2'>
