@@ -44,7 +44,7 @@ function Whatis() {
         Why become a shef?
       </p>
 
-      <div className='flex flex-col md:flex-row my-20 items-start md:items-center  justify-between w-full'>
+      <div className='flex flex-col md:flex-row my-20 items-center md:items-start  justify-between w-full'>
         {data.map((res) => {
           return (
             <div className='md:w-1/3 p-4 flex flex-col justify-center items-center md:items-start  '>
