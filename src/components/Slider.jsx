@@ -43,19 +43,19 @@ function Sliders() {
         {" "}
         How to sell on Shef
       </h2>
-      <Slider {...settings} st>
-        <div className="p-5 md:p-0">
-          <img src='/assets/1.webp' className='w-4/5 object-contain' />
+      <Slider {...settings} className="">
+        <div className="p-5 md:p-0 text-center md:text-left">
+          <img src='/assets/1.webp' className='w-4/5 m-auto md:m-0 object-contain' />
           <h3 className='text-[#d93A4a]   text-3xl font-bold mt-8'>Step 1</h3>
           <p className='text-3xl font-bold py-3'>Get approved to cook</p>
-          <p className='text-lg'>
+          <p className='text-lg '>
             Sign up and submit a sample of your favorite dishes. Pass the food
             tasting, complete an accredited food safety exam, and choose your
             menu of dishes.
           </p>
         </div>
-        <div className="p-5 md:p-0">
-          <img src='/assets/2.webp' className='w-4/5 object-contain' />
+        <div className="p-5 md:p-0 text-center md:text-left">
+          <img src='/assets/2.webp' className='w-4/5 m-auto md:m-0 object-contain' />
 
           <h3 className='text-[#d93A4a]   text-3xl font-bold mt-8'>Step 2</h3>
           <p className='text-3xl font-bold py-3'>Pick your schedule</p>
@@ -64,8 +64,8 @@ function Sliders() {
             like.
           </p>
         </div>
-        <div className="p-5 md:p-0">
-          <img src='/assets/3.webp' className='w-4/5 object-contain' />
+        <div className="p-5 md:p-0 text-center md:text-left">
+          <img src='/assets/3.webp' className='w-4/5 m-auto md:m-0 object-contain' />
 
           <h3 className='text-[#d93A4a]   text-3xl font-bold mt-8'>Step 3</h3>
           <p className='text-3xl font-bold py-3'>Prepare your orders</p>
@@ -75,8 +75,8 @@ function Sliders() {
             and prepare their dishes.
           </p>
         </div>
-        <div className="p-5 md:p-0 md:text-center">
-          <img src='/assets/4.webp' className='w-4/5 object-contain' />
+        <div className="p-5 md:p-0 text-center md:text-left">
+          <img src='/assets/4.webp' className='w-4/5 m-auto md:m-0 object-contain' />
 
           <h3 className='text-[#d93A4a]   text-3xl font-bold mt-8'>Step 4</h3>
           <p className='text-3xl font-bold py-3'>Cool your dishes</p>

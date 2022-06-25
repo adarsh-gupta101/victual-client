@@ -12,7 +12,7 @@ import End from './components/End';
 
 function App() {
   return (
-    <div className=" overflow-hidden">
+    <div className=" overflow-hidden" style={{fontFamily:"Poppins"}}>
       <Header/>
       <Banner/>
       <Whatis/>
