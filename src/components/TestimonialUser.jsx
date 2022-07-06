@@ -35,8 +35,8 @@ const TestimonialUser = () => {
     ],
   };
   return (
-    <div style={{ overflow: "hidden" }} className="bg-[#f7f7f7] pb-12">
-      <h2 className="text-[#d93A4a]   text-4xl font-bold text-center m-6  md:m-24">
+    <div style={{ overflow: "hidden" }} className="bg-[#f7f7f7] pb-16">
+      <h2 className="text-[#d93A4a]   text-4xl font-bold text-center m-6  md:m-16">
         What our customers have to say
       </h2>
       <Slider {...settings} className="">
@@ -84,8 +84,8 @@ const TestimonialUser = () => {
             </p>
             <div class="h-3 text-3xl text-right text-indigo-600">”</div>
             <div class="text-center">
-              <h5 class="font-bold text-indigo-600">Jane Doe</h5>
-              <p class="text-sm text-gray-600">Faithful customer</p>
+              <h5 class="font-bold text-indigo-600">Jane John</h5>
+              <p class="text-sm text-gray-600">A person</p>
             </div>
           </div>
         </div>

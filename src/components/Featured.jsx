@@ -36,8 +36,8 @@ const Featured = () => {
     ],
   };
   return (
-    <div style={{ overflow: "hidden" }} className="bg-[#f7f7f7] pb-8">
-      <h2 className="text-[#d93A4a]   text-4xl font-bold text-center m-6  md:m-24">
+    <div style={{ overflow: "hidden" }} className="bg-[#f7f7f7] pb-16">
+      <h2 className="text-[#d93A4a]   text-4xl font-bold text-center m-6  md:m-16">
         Featured Dishes
       </h2>
       <Slider {...settings} className="">

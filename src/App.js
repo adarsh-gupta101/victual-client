@@ -34,11 +34,10 @@ function App() {
           <BannerUser />
           <Featured />
           <TopRated />
-          <Chefs />
+          {/* <Chefs /> tried making chefs cards but it dosent look right */}
           <TestimonialUser />
         </>
       )}
-
       <End />
     </div>
   );

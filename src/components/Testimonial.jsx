@@ -15,10 +15,10 @@ function Testimonial() {
   ];
   return (
     <div>
-      <div className="md:p-8 md:px-28 flex flex-col md:flex items-center">
+      <div className="md:p-8 md:px-28 flex md:flex items-center content-between">
         <img src={data[0].img} alt="" className="w-4/5 md:w-1/2" />
-        <div className="p-6">
-          <p className="text-2xl md:text-4xl text-gray-600">
+        <div className="p-6 content-end">
+          <p className="text-2xl md:text-4xl text-gray-600 w-4/5">
             <img src="/assets/Quotes.svg"></img>
             {data[0].text}
           </p>
