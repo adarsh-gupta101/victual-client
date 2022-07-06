@@ -1,7 +1,7 @@
 import Slider from "react-slick";
 import Card from "./Card";
 
-const Featured = () => {
+const TopRated = () => {
   const settings = {
     dots: true,
     infinite: true,
@@ -38,7 +38,7 @@ const Featured = () => {
   return (
     <div style={{ overflow: "hidden" }} className="mt-24 bg-[#f7f7f7] pb-16">
       <h2 className="text-[#d93A4a]   text-4xl font-bold text-center m-6  md:m-24">
-        Featured Dishes
+        Top Rated Dishes
       </h2>
       <Slider {...settings} className="">
         <Card item="Burger" cost="5" imglink="burger.jpg" />
@@ -51,4 +51,4 @@ const Featured = () => {
   );
 };
 
-export default Featured;
+export default TopRated;
