@@ -1,6 +1,6 @@
 import React from "react";
 
-function Header() {
+function Header({ chef, setChef }) {
   return (
     // <div className="flex justify-between p-4">
     //   <div className="flex items-center  w-1/3 justify-evenly">

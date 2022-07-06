@@ -12,12 +12,14 @@ import { useState } from "react";
 import BannerUser from "./components/BannerUser";
 import Featured from "./components/Featured";
 import TopRated from "./components/TopRated";
+import Chefs from "./components/Chefs";
+import TestimonialUser from "./components/TestimonialUser";
 
 function App() {
   const [chef, setChef] = useState(false);
   return (
     <div className=" overflow-hidden" style={{ fontFamily: "Poppins" }}>
-      <Header />
+      <Header chef={chef} setChef={setChef} />
       {chef ? (
         <>
           <Banner />
@@ -32,6 +34,8 @@ function App() {
           <BannerUser />
           <Featured />
           <TopRated />
+          <Chefs />
+          <TestimonialUser />
         </>
       )}
 

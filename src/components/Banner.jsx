@@ -1,5 +1,4 @@
 import React from "react";
-import BannerImage from "../banner.webp";
 
 function Banner() {
   return (
@@ -11,13 +10,13 @@ function Banner() {
     // 2xl	1536px
     <div style={{ height: "768px" }}>
       {/* <div style={{backgroungImage:" linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 72.53%), url(https://cdn.t.shef.com/unsafe/2400x0/center/middle/https://cdn.shef.com/static/media/bas_hero_d.dbb55085.jpg);"
-        }}>hi</div> */}
-      <div className="relative w-full h-3/4">
+      }}>hi</div> */}
+      <div className="relative w-full h-full">
         <img
           src="/assets/banner.webp"
           className="w-full h-full brightness-75 object-cover "
         />
-        <div className="absolute top-10 md:top-12 w-11/12 md:w-4/5 bg ">
+        <div className="absolute top-10 md:top-40 w-11/12 md:w-4/5 bg ">
           <p className="text-4xl md:text-6xl xl:text-7xl text-white font-bold m-6 md:px-28">
             Earn money doing what you love
           </p>
