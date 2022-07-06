@@ -25,7 +25,7 @@ const BannerUser = () => {
             <input
               type="text"
               placeholder="Enter delivery address..."
-              className="py-1 md:ml-28 mr-6 md:px-6 my-2 h-12 p-4 md:w-2/4 rounded outline-none"
+              className="py-1 md:ml-28 mr-6 md:px-6 my-2 h-12 p-4 w-4/5 md:w-2/4 rounded outline-none"
             />
           </div>
           <p className="text-xl text-white p-2 px-9 rounded-3xl mx-8 md:mx-36 bg-[#d93A4a] w-fit">
