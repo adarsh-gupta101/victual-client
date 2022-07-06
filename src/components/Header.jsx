@@ -32,7 +32,8 @@ function Header({ chef, setChef }) {
     <nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5">
       <div class="container flex flex-wrap justify-between items-center mx-auto">
         <a href="https://flowbite.com/" class="flex items-center">
-          <img src="assets/shef.svg " className="w-20" alt="shef Logo" />
+          {/* <img src="assets/shef.svg " className="w-20" alt="shef Logo" /> */}
+          <p className="font-bold text-2xl text-pink-500">Victual</p>
         </a>
         <div class="flex md:order-2">
           <button

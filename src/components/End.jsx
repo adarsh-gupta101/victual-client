@@ -191,7 +191,7 @@ function End() {
         </div>
         <div className="bg-black text-white flex p-2 justify-evenly">
           <p className="hidden md:block">
-            © Shef, Inc. 2020. All Rights Reserved.{" "}
+            © Victual, Inc. 2020. All Rights Reserved.{" "}
           </p>
           <p> Privacy Policy</p> <p>Terms of Service</p>
         </div>

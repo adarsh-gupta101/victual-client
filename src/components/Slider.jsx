@@ -41,7 +41,7 @@ function Sliders() {
     <div style={{ overflow: "hidden" }} className='mt-24 bg-[white] pb-16'>
       <h2 className='text-[#d93A4a]   text-4xl font-bold text-center m-6  md:m-24'>
         {" "}
-        How to sell on Shef
+        How to sell on Victual
       </h2>
       <Slider {...settings} className="">
         <div className="p-5 md:p-0 text-center md:text-left">

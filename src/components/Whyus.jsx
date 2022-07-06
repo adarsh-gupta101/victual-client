@@ -45,7 +45,7 @@ function Whyus() {
       </div>
 
       <p className=' border-4 border-pink-200 border-r-0 border-l-0 text-center p-4 text-2xl md:text-5xl w-4/5 m-auto md:p-40 my-24'>
-        Shef has served over 1,000,000 dishes to customers across the United
+      Victual has served over 1,000,000 dishes to customers across the United
         States
       </p>
 

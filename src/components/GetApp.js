@@ -10,7 +10,7 @@ function GetApp() {
       />
 
       <div>
-        <p className='text-2xl font-bold text-gray-500 my-4 '>Get the Shef app</p>
+        <p className='text-2xl font-bold text-gray-500 my-4 '>Get the Victual app</p>
         <p>
           We will send you a link, open it on your phone to download the app
         </p>

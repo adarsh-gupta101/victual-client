@@ -22,13 +22,13 @@ function Whatis() {
   return (
     <div className="p-8 md:px-28 mt-8">
       <p className="text-[#d93A4a]  font-bold text-5xl text-center md:text-left">
-        What is Shef
+        What is Victual
       </p>
       <p className="my-8 text-lg text-gray-500 text-center md:text-left">
-        Shef connects talented cooks with local customers.
+      Victual connects talented cooks with local customers.
       </p>
       <p className="text-sm md:text-xl md:w-2/3 text-gray-500 text-center md:text-left">
-        We believe in providing the shefs in our community — individuals who
+        We believe in providing the Victuals in our community — individuals who
         have always dreamt of building their own food business — the opportunity
         to make a meaningful income by doing what they love! We also believe
         that every person should have access to a wholesome, homemade meal at an
@@ -37,11 +37,11 @@ function Whatis() {
           Building a community devoted to economic empowerment and cultural
           inclusivity
         </span>{" "}
-        — that’s why we started Shef.
+        — that’s why we started Victual.
       </p>
 
       <p className="text-[#d93A4a]  font-bold text-4xl mt-24 text-center md:text-left">
-        Why become a shef?
+        Why become a Victual?
       </p>
 
       <div className="flex flex-col md:flex-row my-20 items-center md:items-start  justify-between w-full">
