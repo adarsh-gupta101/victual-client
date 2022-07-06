@@ -10,7 +10,7 @@ import Faq from "./components/Faq";
 import End from "./components/End";
 import { useState } from "react";
 import BannerUser from "./components/BannerUser";
-import Featured from "./components/Featured";
+import Carousel from "./components/Carousel";
 
 function App() {
   const [chef, setChef] = useState(false);
@@ -29,7 +29,7 @@ function App() {
       ) : (
         <>
           <BannerUser />
-          <Featured />
+          <Carousel />
         </>
       )}
 
