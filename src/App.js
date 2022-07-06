@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import Header from "./components/Header";
 import Banner from "./components/Banner";
@@ -9,17 +8,31 @@ import Sliders from "./components/Slider";
 import Whyus from "./components/Whyus";
 import Faq from "./components/Faq";
 import End from "./components/End";
+import { useState } from "react";
+import BannerUser from "./components/BannerUser";
+import Featured from "./components/Featured";
 
 function App() {
+  const [chef, setChef] = useState(false);
   return (
     <div className=" overflow-hidden" style={{ fontFamily: "Poppins" }}>
       <Header />
-      <Banner />
-      <Whatis />
-      <Testimonial />
-      <Sliders />
-      <Whyus />
-      <Faq />
+      {chef ? (
+        <>
+          <Banner />
+          <Whatis />
+          <Testimonial />
+          <Sliders />
+          <Whyus />
+          <Faq />
+        </>
+      ) : (
+        <>
+          <BannerUser />
+          <Featured />
+        </>
+      )}
+
       <End />
     </div>
   );
