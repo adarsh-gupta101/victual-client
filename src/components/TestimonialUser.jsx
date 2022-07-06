@@ -35,7 +35,7 @@ const TestimonialUser = () => {
     ],
   };
   return (
-    <div style={{ overflow: "hidden" }} className="bg-[#f7f7f7] pb-16">
+    <div style={{ overflow: "hidden" }} className="bg-[white] pb-16">
       <h2 className="text-[#d93A4a]   text-4xl font-bold text-center m-6  md:m-16">
         What our customers have to say
       </h2>

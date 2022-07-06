@@ -21,8 +21,8 @@ const TopRated = () => {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
+          slidesToShow: 1.05,
+          slidesToScroll: 1,
           initialSlide: 2,
         },
       },
@@ -40,7 +40,7 @@ const TopRated = () => {
       <h2 className="text-[#d93A4a]   text-4xl font-bold text-center m-6  md:m-16">
         Top Rated Dishes
       </h2>
-      <Slider {...settings} className="">
+      <Slider {...settings} className="p-2  md:p-0 ">
         <Card item="Burger" cost="5" imglink="burger.jpg" />
         <Card item="Pizza" cost="10" imglink="Pizza.jpg" />
         <Card item="Pasta" cost="7" imglink="Pasta.jpg" />

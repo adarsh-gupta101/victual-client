@@ -21,7 +21,7 @@ const Featured = () => {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
           slidesToScroll: 2,
           initialSlide: 2,
         },
@@ -36,11 +36,11 @@ const Featured = () => {
     ],
   };
   return (
-    <div style={{ overflow: "hidden" }} className="bg-[#f7f7f7] pb-16">
+    <div style={{ overflow: "hidden" }} className="bg-[white] pb-16">
       <h2 className="text-[#d93A4a]   text-4xl font-bold text-center m-6  md:m-16">
         Featured Dishes
       </h2>
-      <Slider {...settings} className="">
+      <Slider {...settings} className="px-2">
         <Card item="Burger" cost="5" imglink="burger.jpg" />
         <Card item="Pizza" cost="10" imglink="Pizza.jpg" />
         <Card item="Pasta" cost="7" imglink="Pasta.jpg" />

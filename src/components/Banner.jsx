@@ -15,6 +15,7 @@ function Banner() {
         <img
           src="/assets/banner.webp"
           className="w-full h-full brightness-75 object-cover "
+          alt=""
         />
         <div className="absolute top-10 md:top-40 w-11/12 md:w-4/5 bg ">
           <p className="text-4xl md:text-6xl xl:text-7xl text-white font-bold m-6 md:px-28">

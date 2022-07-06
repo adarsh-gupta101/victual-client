@@ -14,6 +14,7 @@ import Featured from "./components/Featured";
 import TopRated from "./components/TopRated";
 import Chefs from "./components/Chefs";
 import TestimonialUser from "./components/TestimonialUser";
+import GetApp from "./components/GetApp";
 
 function App() {
   const [chef, setChef] = useState(false);
@@ -32,10 +33,20 @@ function App() {
       ) : (
         <>
           <BannerUser />
+          <Whatis />
+          <Sliders />
+
           <Featured />
           <TopRated />
+          <Whyus />
+
           {/* <Chefs /> tried making chefs cards but it dosent look right */}
+          <Testimonial />
+
           <TestimonialUser />
+          <Faq />
+          <GetApp />
+
         </>
       )}
       <End />

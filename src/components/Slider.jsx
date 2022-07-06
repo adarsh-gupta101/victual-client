@@ -38,7 +38,7 @@ function Sliders() {
     ],
   };
   return (
-    <div style={{ overflow: "hidden" }} className='mt-24 bg-[#f7f7f7] pb-16'>
+    <div style={{ overflow: "hidden" }} className='mt-24 bg-[white] pb-16'>
       <h2 className='text-[#d93A4a]   text-4xl font-bold text-center m-6  md:m-24'>
         {" "}
         How to sell on Shef

@@ -23,10 +23,10 @@ function End() {
         ¹ Delivery methods vary based on local regulations.
       </p>
       <footer className="bg-[#d93A4a]">
-        <div className="text-white flex flex-col-reverse md:flex-row justify-evenly items-start px-2  md:py-24 mt-16">
+        <div className="text-white flex flex-col-reverse md:flex-row justify-evenly items-center px-2  md:py-24 mt-16">
           <div>
             <img src="/assets/shef.svg" alt="" className=""></img>
-            <p className=" text-sm md:text-xl font-bold md:text-left w-fit m-auto mx-1/2">
+            <p className=" text-sm md:text-4xl font-bold md:text-left w-fit m-auto mx-1/2">
               There's No Taste Like Home
             </p>
           </div>
