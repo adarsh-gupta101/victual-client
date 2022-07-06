@@ -19,7 +19,7 @@ import GetApp from "./components/GetApp";
 function App() {
   const [chef, setChef] = useState(false);
   return (
-    <div className=" overflow-hidden" style={{ fontFamily: "Poppins" }}>
+    <div className=" overflow-hidden" style={{ fontFamily: "Poppins" ,overflow:"hidden"}}>
       <Header chef={chef} setChef={setChef} />
       {chef ? (
         <>
