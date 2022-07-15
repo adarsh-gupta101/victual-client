@@ -32,9 +32,9 @@ function Whyus() {
       <p className='text-4xl text-[#d93A4a] text-center md:text-left  md:mx-24 my-12 font-bold '>Help when you need it</p>
 
       <div className='flex flex-wrap md:p-24 items-center justify-center'>
-        {data.map((data) => {
+        {data.map((data,ida) => {
           return (
-            <div className='md:w-3/6 p-8 flex flex-col items-center'>
+            <div className='md:w-3/6 p-8 flex flex-col items-center' key={ida}>
               <img src={data.img} alt='' className='w-20' />
               <p className='text-2xl my-8 font-bold'>{data.title}</p>
               <p className='md:text-xl text-gray-500 mt-4 mb-4 md:text-left text-center text-sm '>{data.p1}</p>
@@ -52,14 +52,14 @@ function Whyus() {
       <p className='text-4xl text-[#d93A4a]  text-center md:text-left  md:mx-24 my-12 font-bold '>Cooking safely</p>
       <img
         src='https://cdn.shef.com/static/media/cooking-safely.7001665c.jpg'
-        className='m-auto '
+        className='m-auto ' alt=""
       />
 
       <div className='flex flex-col  md:flex-row w-4/5 m-auto items-center mt-8'>
         <div className='p-4 flex flex-col justify-center items-center'>
           <img
             src='https://cdn.shef.com/static/media/Safety_Icon.1ef71965.svg'
-            className='w-20'
+            className='w-20' alt=""
           />
           <p className='text-2xl font-bold my-4'>Food safety training</p>
           <p className='md:text-lg md:text-left text-center text-gray-500 '>
@@ -73,7 +73,7 @@ function Whyus() {
         <div className='p-4 flex flex-col justify-center items-center'>
           <img
             src='https://cdn.shef.com/static/media/Trust_Icon.0c7a428b.svg'
-            className='w-20'
+            className='w-20' alt=""
           />
           <p className='text-2xl font-bold my-4 md:text-left text-center'>Trusted by thousands of people</p>
           <p className='md:text-lg md:text-left text-center text-gray-500 '>

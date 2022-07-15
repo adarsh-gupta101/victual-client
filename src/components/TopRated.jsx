@@ -41,11 +41,11 @@ const TopRated = () => {
         Top Rated Dishes
       </h2>
       <Slider {...settings} className="p-2  md:p-0 ">
-        <Card item="Burger" cost="5" imglink="burger.jpg" />
-        <Card item="Pizza" cost="10" imglink="Pizza.jpg" />
-        <Card item="Pasta" cost="7" imglink="Pasta.jpg" />
-        <Card item="Dosa" cost="23.5" imglink="Dosa.jpg" />
-        <Card item="Sushi" cost="5.40" imglink="Sushi.jpg" />
+        <Card item="Burger" cost="5" imglink="/assets/burger.jpg" />
+        <Card item="Pizza" cost="10" imglink="/assets/Pizza.jpg" />
+        <Card item="Pasta" cost="7" imglink="/assets/Pasta.jpg" />
+        <Card item="Dosa" cost="23.5" imglink="/assets/Dosa.jpg" />
+        <Card item="Sushi" cost="5.40" imglink="/assets/Sushi.jpg" />
       </Slider>
     </div>
   );

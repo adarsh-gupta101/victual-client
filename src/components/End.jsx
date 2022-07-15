@@ -24,33 +24,48 @@ function End() {
       </p>
       <footer className="bg-[#d93A4a]">
         <div className="text-white flex flex-col-reverse md:flex-row justify-evenly items-center px-2  md:py-24 mt-16">
-          <div>
-            <img src="/assets/shef.svg" alt="" className=""></img>
-            <p className=" text-sm md:text-4xl font-bold md:text-left w-fit m-auto mx-1/2">
-              There's No Taste Like Home
-            </p>
-          </div>
+          {/* <div>
+            {/* <img src="/assets/shef.svg" alt="" className=""></img> */}
+            {/* <p className=" text-sm md:text-4xl font-bold md:text-left w-fit m-auto mx-1/2"> */}
+              {/* There's No Taste Like Home */}
+            {/* </p> */}
+          {/* </div> */} 
+          <img src="/assets/victual.png" className="w-64 h-64"/>
 
-          <div className="flex  items-start md:px-6 justify-around ">
-            <ul className="text-white p-2 md:text-lg text-sm">
-              <li className="font-bold">Learn</li>
-              <li>Our Story</li>
-              <li>Help Center</li>
-              <li>Food Safety</li>
-              <li>Blog</li>
+          <div className="flex md:flex-row flex-col text-center md:Text-left   md:px-6  ">
+            <ul className="text-white cursor-pointer p-4 md:text-lg text-sm">
+              <li className="font-semibold text-2xl">Company</li>
+              <li className="text-base">About Us</li>
+              <li className="text-base">Victual blog</li>
+              {/* <li>Food Safety</li>
+              <li>Blog</li> */}
             </ul>
-            <ul className="text-white p-2 md:text-lg text-sm">
-              <li className="font-bold">Follow</li>
-              <li>Facebook</li>
-              <li>Instagram</li>
-              <li> Twitter</li>
-              <li>Blog</li>
+            <ul className="text-white cursor-pointer p-4 md:text-lg text-sm">
+              <li className="font-semibold text-2xl">Contact</li>
+              <li className="text-base">Help & Support</li>
+              <li className="text-base">Partner with us</li>
+              <li className="text-base"> Ride with us</li>
+              {/* <li>Blog</li> */}
             </ul>{" "}
-            <ul className="text-white p-2 md:text-lg text-sm">
-              <li className="font-bold">Resources</li>
-              <li>Become a shef</li>
-              <li>Careers</li>
-              <li> Gift Cards</li>
+            <ul className="text-white cursor-pointer p-4 md:text-lg text-sm">
+              <li className="font-semibold text-2xl">Legal</li>
+               <li className="text-base">Terms & Conditions</li>
+               <li className="text-base">Partnering with us</li>
+               <li className="text-base"> Gift Cards</li>
+            </ul>
+            <ul className="text-white cursor-pointer p-4 md:text-lg text-sm">
+              <li className="font-semibold text-2xl">Address</li>
+ <li className="text-base">Victual.com</li>
+ <li className="text-base">True Klock Street</li>
+ <li className="text-base"> Clichy</li>
+ <li className="text-base">+91985687566</li>
+            </ul>
+            <ul className="text-white cursor-pointer p-4 md:text-lg text-sm">
+              <li className="font-semibold text-2xl">Mail</li>
+               <li className="text-base">victual.info@gmail.com</li>
+               <li className="text-base">Become a Shef </li>
+               <li className="text-base"> Know more</li>
+               <li className="text-base"></li>
             </ul>
           </div>
         </div>
@@ -191,7 +206,8 @@ function End() {
         </div>
         <div className="bg-black text-white flex p-2 justify-evenly">
           <p className="hidden md:block">
-            © Victual, Inc. 2020. All Rights Reserved.{" "}
+            
+            © Victual, Inc. 2022. All Rights Reserved.{" "}
           </p>
           <p> Privacy Policy</p> <p>Terms of Service</p>
         </div>

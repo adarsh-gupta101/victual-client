@@ -17,11 +17,11 @@ function GetApp() {
         <div className='flex p-0 py-4 justify-start items-ce'>
             <div className="mx-4 ">
           <input type='radio' name='app' id='app' value='ios' className="mr-2"/>
-          <label for='app'>Email</label>
+          <label htmlFor='app'>Email</label>
           <br /></div>
           <div>
           <input type='radio' name='app' id='apps' value='android' className="mx-2"/>
-          <label for='apps'>Phone</label>
+          <label htmlFor='apps'>Phone</label>
           <br /></div>
         </div>
         <input type='email' name='email' placeholder='Enter your email' className="p-2 border-2 border-pink-500 w-full md:w-fit" />

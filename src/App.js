@@ -15,6 +15,8 @@ import TopRated from "./components/TopRated";
 import Chefs from "./components/Chefs";
 import TestimonialUser from "./components/TestimonialUser";
 import GetApp from "./components/GetApp";
+import Type from "./components/Type";
+import Meal from "./components/Meal";
 
 function App() {
   const [chef, setChef] = useState(false);
@@ -33,15 +35,18 @@ function App() {
       ) : (
         <>
           <BannerUser />
+          <Type/>
           <Whatis />
           <Sliders />
 
           <Featured />
           <TopRated />
+          <Meal/>
+          <Chefs/>
           <Whyus />
 
           {/* <Chefs /> tried making chefs cards but it dosent look right */}
-          <Testimonial />
+          {/* <Testimonial /> */}
 
           <TestimonialUser />
           <Faq />

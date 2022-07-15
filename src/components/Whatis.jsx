@@ -45,9 +45,9 @@ function Whatis() {
       </p>
 
       <div className="flex flex-col md:flex-row my-20 items-center md:items-start  justify-between w-full">
-        {data.map((res) => {
+        {data.map((res,i) => {
           return (
-            <div className="md:w-1/3 p-4 flex flex-col justify-center items-center md:items-start  ">
+            <div key={i} className="md:w-1/3 p-4 flex flex-col justify-center items-center md:items-start  ">
               <img src={res.img} className="w-20" />
               <p className="text-xl md:text-2xl font-bold mt-8">{res.title}</p>
               <p className="text-xl text-center md:text-left text-gray-500 mt-8">

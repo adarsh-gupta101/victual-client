@@ -36,16 +36,16 @@ const Chefs = () => {
     ],
   };
   return (
-    <div style={{ overflow: "hidden" }} className="bg-[#f7f7f7] pb-8">
+    <div style={{ overflow: "hidden" }} className="bg-[white] pb-8">
       <h2 className="text-[#d93A4a]   text-4xl font-bold text-center m-6  md:m-24">
         Meet the Shefs
       </h2>
-      <Slider {...settings} className="">
-        <Card item="Burger" cost="5" imglink="burger.jpg" />
-        <Card item="Pizza" cost="10" imglink="Pizza.jpg" />
-        <Card item="Pasta" cost="7" imglink="Pasta.jpg" />
-        <Card item="Dosa" cost="23.5" imglink="Dosa.jpg" />
-        <Card item="Sushi" cost="5.40" imglink="Sushi.jpg" />
+      <Slider {...settings} className="px-2">
+        <Card ch={1} item="Sangeet Rao" cost="5" imglink="http://www.recruitdetroit.com/galleries/Features/young_chefs_part_deux-010.jpg" />
+        <Card ch={1} item="Andrews" cost="10" imglink="https://img.sunset02.com/sites/default/files/styles/4_3_horizontal_-_1200x900/public/image/2016/05/main/chef-ludo-lefebvre-sun-0616-xl.jpg" />
+        <Card ch={1} item="John Doe" cost="7" imglink="http://www.recruitdetroit.com/galleries/Features/young_chefs_part_deux-014.jpg" />
+        <Card ch={1} item="Vivek Malhotra" cost="23.5" imglink="https://d1dmo9iwh0r4qt.cloudfront.net/~/media/ai/main/images/_national/blog/how-to-become-a-chef/ai_tampa_web_images_1061.ashx?la=en&modified=20180319204040&hash=5FB233137EFD1C89FCDAF8BA2F9D86FB56D250FC" />
+        <Card ch={1} item="Drake Ramoray" cost="5.40" imglink="https://katmeer.com/Assets/Images/Offers/637678887044100396become-chef.jpg" />
       </Slider>
     </div>
   );
